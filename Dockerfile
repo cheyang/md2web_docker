@@ -2,7 +2,7 @@ FROM nginx:1.8.1
 
 COPY bootstrap /usr/share/nginx/html
 
-RUN apt-get install -y nodejs \
+RUN apt-get install -y node \
 				       npm && \
 	npm install -g markdown2bootstrap
 
