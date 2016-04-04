@@ -8,7 +8,6 @@ RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 573BFD6B3D8FBC64107
 	&& echo "deb http://nginx.org/packages/mainline/debian/ jessie nginx" >> /etc/apt/sources.list \
 	&& apt-get update \
 	&& apt-get install -y \
-						ca-certificates \
 						nginx=${NGINX_VERSION} \
 						nginx-module-xslt \
 						nginx-module-geoip \
