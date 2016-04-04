@@ -7,7 +7,7 @@ htmlDir=/usr/share/nginx/html
 # step 1: generate html
 cd /docs
 find . -name "*.md" -exec node \
-node_modules/markdown2bootstrap/markdown2bootstrap.js \
+/node_modules/markdown2bootstrap/markdown2bootstrap.js \
 '{}' -h --html --outputdir "${htmlDir}" \;
 
 #cp "${myDir}/../doc/node_modules/markdown2bootstrap/bootstrap" "${htmlDir}/" -rf
