@@ -13,5 +13,6 @@ docker build .
 ## Using the image to run
 
 ```sh
-docker run -d -p 80:80 -v <host_dir>:/docs cheyang/md2web 
+cd sample_docs
+docker run -d -p 80:80 -v `pwd`/parts:/node_modules/markdown2bootstrap/parts -v `pwd`:/docs cheyang/md2web 
 ```
