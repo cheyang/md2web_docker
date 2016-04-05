@@ -1,4 +1,4 @@
-<!-- title: Common Cloud Stack Continuous Delivery Setup Reference -->
+<!-- title: Continuous Delivery Setup Reference -->
 <!-- subtitle: Getting Started, team & code. -->
 # About this Guide
 
