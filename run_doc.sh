@@ -13,4 +13,4 @@ find . -name "*.md" -exec node \
 #cp "${myDir}/../doc/node_modules/markdown2bootstrap/bootstrap" "${htmlDir}/" -rf
 
 # step 2: start nginx
-nginx -g daemon off
+nginx -g "daemon off"
