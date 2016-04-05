@@ -1,6 +1,6 @@
 FROM node:0.10
 
-COPY bootstrap /usr/share/nginx/html/
+COPY bootstrap /usr/share/nginx/html/bootstrap
 
 ENV NGINX_VERSION 1.9.12-1~jessie
 
